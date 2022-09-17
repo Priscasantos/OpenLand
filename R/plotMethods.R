@@ -66,7 +66,7 @@ methods::setMethod(
                         ...) {
 
         dataset <-
-      x$intervalData %>% dplyr::mutate(Type = ifelse(St > U, "Fast", "Slow"))
+      x$intervalData %>% dplyr::mutate(Type = ifelse(St > U, "Rápida", "Lenta"))
 
 
     GL01_taxa <-
